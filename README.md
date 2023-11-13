@@ -11,7 +11,7 @@ Here are some ideas to get you started:
 -->
 
 - 🔭 I’m currently studying on SYSU
-- 🌱 I’m currently learning K8s
+- 🌱 I’m currently learning web
 - 💬 Ask me about ...
 - 📫 How to reach me: panda.sysu@gmail.com
 
