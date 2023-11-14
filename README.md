@@ -17,6 +17,6 @@ Here are some ideas to get you started:
 
 
 ### Contributions
-![contributions](./assets/github-contribution-grid-snake.svg)
+![contributions](https://raw.githubusercontent.com/pandacase/pandacase/output/github-contribution-grid-snake.svg)
 
 
