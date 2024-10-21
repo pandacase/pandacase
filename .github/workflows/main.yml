@@ -61,11 +61,11 @@ jobs:
           plugin_languages: yes
           repositories_skipped: | 
             @use.patterns
-            - pandacase.github.io
-            - openwrt
-            - sysu-fa23-ds-hw6
-            - mit6.S081-gitbook
-            - mit6.824-gitbook
+            -pandacase.github.io
+            -openwrt
+            -sysu-fa23-ds-hw6
+            -mit6.S081-gitbook
+            -mit6.824-gitbook
           plugin_languages_colors: github
           plugin_languages_details: lines, percentage
           plugin_languages_indepth: yes
@@ -74,12 +74,3 @@ jobs:
           plugin_rss_limit: 3
           config_order: base.header, isocalendar, languages, rss
           
-      - name: right-side
-        uses: lowlighter/metrics@latest
-        with:
-          filename: right.metrics.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_anilist: yes
-          plugin_anilist_sections: characters
-          plugin_anilist_limit_characters: 22
