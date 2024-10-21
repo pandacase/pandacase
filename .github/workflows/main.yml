@@ -74,3 +74,12 @@ jobs:
           plugin_rss_limit: 3
           config_order: base.header, isocalendar, languages, rss
           
+      - name: right-side
+        uses: lowlighter/metrics@latest
+        with:
+          filename: right.metrics.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_sections: characters
+          plugin_anilist_limit_characters: 22
