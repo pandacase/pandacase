@@ -15,8 +15,8 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: panda.sysu@gmail.com
 
-[<img align="left" width="390" alt="🍕" src="./github-metrics.svg">](#)
-[<img align="right" width="390" alt="🍪" src="./right.metrics.svg">](#)
+[<img align="left" width="390" alt="🍕" src="./left-metrics.svg">](#)
+[<img align="right" width="390" alt="🍪" src="./right-metrics.svg">](#)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pandacase/pandacase/output/github-contribution-grid-snake-dark.svg" />
