@@ -50,11 +50,11 @@ jobs:
       - name: left-side
         uses: lowlighter/metrics@latest
         with:
+          filename: left-metrics.svg
           # token
           token: ${{ secrets.METRICS_TOKEN }}
           # options
           config_timezone: Asia/Shanghai
-          output_path: left.metrics.svg
           template: classic
           base: header, activity, community
           plugin_isocalendar: yes
@@ -73,11 +73,11 @@ jobs:
       - name: right-side
         uses: lowlighter/metrics@latest
         with:
+          filename: right-metrics.svg
           # token
           token: ${{ secrets.METRICS_TOKEN }}
           # options
           config_timezone: Asia/Shanghai
-          output_path: right.metrics.svg
           template: classic
           base: ""
           plugin_rss: yes
