@@ -54,7 +54,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           # options
           config_timezone: Asia/Shanghai
-          file-name: left.metrics.svg
+          output_path: left.metrics.svg
           template: classic
           base: header, activity, community
           plugin_isocalendar: yes
@@ -77,7 +77,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           # options
           config_timezone: Asia/Shanghai
-          file-name: right.metrics.svg
+          output_path: right.metrics.svg
           template: classic
           base: ""
           plugin_rss: yes
