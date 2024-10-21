@@ -54,9 +54,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           # options
           config_timezone: Asia/Shanghai
+          file-name: left.metrics.svg
           template: classic
           base: header, activity, community
-          file-name: left.metrics.svg
           plugin_isocalendar: yes
           plugin_languages: yes
           repositories_skipped: |
@@ -68,8 +68,21 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_details: lines, percentage
           plugin_languages_indepth: yes
+          config_order: base.header, isocalendar, languages
+      
+      - name: right-side
+        uses: lowlighter/metrics@latest
+        with:
+          # token
+          token: ${{ secrets.METRICS_TOKEN }}
+          # options
+          config_timezone: Asia/Shanghai
+          file-name: right.metrics.svg
+          template: classic
+          base: ""
           plugin_rss: yes
           plugin_rss_source: https://pandacase.github.io/feed.xml
           plugin_rss_limit: 3
-          config_order: base.header, isocalendar, languages, rss
-          
+          plugin_achievements: yes
+          plugin_achievements_limit: 8
+          config_order: rss, achievements
