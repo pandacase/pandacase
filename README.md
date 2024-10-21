@@ -15,6 +15,8 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: panda.sysu@gmail.com
 
+[<img align="left" width="390" alt="🍕" src="./github-metrics.svg">](#)
+[<img align="right" width="390" alt="🍪" src="./right.metrics.svg">](#)
 
 ### Contributions
 
