@@ -18,8 +18,6 @@ Here are some ideas to get you started:
 [<img align="left" width="390" alt="🍕" src="./github-metrics.svg">](#)
 [<img align="right" width="390" alt="🍪" src="./right.metrics.svg">](#)
 
-### Contributions
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pandacase/pandacase/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pandacase/pandacase/output/github-contribution-grid-snake.svg" />
