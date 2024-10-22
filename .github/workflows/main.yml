@@ -56,7 +56,7 @@ jobs:
           # options
           config_timezone: Asia/Shanghai
           template: classic
-          base: header, activity, community
+          base: header
           plugin_isocalendar: yes
           plugin_languages: yes
           repositories_skipped: |
