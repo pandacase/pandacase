@@ -70,11 +70,13 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_details: lines, percentage
           plugin_languages_indepth: yes
-          plugin_leetcode: yes
-          plugin_leetcode_user: pandacase
-          plugin_leetcode_sections: solved, skills, recent
-          plugin_leetcode_limit_skills: 9
-          config_order: base.header, isocalendar, languages, leetcode
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          config_order: base.header, isocalendar, languages, habits, topics
       
       - name: right-side
         uses: lowlighter/metrics@latest
@@ -86,15 +88,13 @@ jobs:
           config_timezone: Asia/Shanghai
           template: classic
           base: ""
-          plugin_topics: yes
-          plugin_topics_mode: icons
-          plugin_topics_limit: 0
           plugin_achievements: yes
           plugin_achievements_limit: 8
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
+          plugin_leetcode: yes
+          plugin_leetcode_user: pandacase
+          plugin_leetcode_sections: solved, skills, recent
+          plugin_leetcode_limit_skills: 9
           plugin_rss: yes
           plugin_rss_source: https://pandacase.github.io/feed.xml
           plugin_rss_limit: 4
-          config_order: topics, habits, achievements, rss
+          config_order: leetcode, achievements, rss
