@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 -->
 
-<p align="center">
+<div align="center">
   <a href="#">
     <img width="400" align="top" src="./left-metrics.svg" />
   </a>
@@ -26,7 +26,7 @@ Here are some ideas to get you started:
   <a href="#">
     <img width="400" align="top" src="./right-metrics.svg" />
   </a>
-</p>
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pandacase/pandacase/output/github-contribution-grid-snake-dark.svg" />
