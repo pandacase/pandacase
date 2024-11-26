@@ -90,4 +90,7 @@ jobs:
           plugin_rss_limit: 3
           plugin_achievements: yes
           plugin_achievements_limit: 8
-          config_order: achievements, rss
+          plugin_leetcode: yes
+          plugin_leetcode_user: ding-yihua
+          plugin_leetcode_sections: solved, skills, recent
+          config_order: achievements, rss, leetcode
