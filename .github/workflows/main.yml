@@ -66,6 +66,7 @@ jobs:
             mit6.S081-gitbook,
             mit6.824-gitbook,
             sysu-fa23-ml-recommendationSys
+            react-toy-code
           plugin_languages_ignored: 'html, css, Jupyter Notebook'
           plugin_languages_colors: github
           plugin_languages_details: lines, percentage
