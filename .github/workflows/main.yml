@@ -86,6 +86,9 @@ jobs:
           config_timezone: Asia/Shanghai
           template: classic
           base: ""
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
           plugin_achievements: yes
           plugin_achievements_limit: 8
           plugin_habits: yes
@@ -93,4 +96,5 @@ jobs:
           plugin_habits_charts: no
           plugin_rss: yes
           plugin_rss_source: https://pandacase.github.io/feed.xml
-          config_order: achievements, habits, rss
+          plugin_rss_limit: 3
+          config_order: topics, achievements, habits, rss
