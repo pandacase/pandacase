@@ -73,7 +73,10 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: no
-          config_order: base.header, isocalendar, languages, habits
+          plugin_rss: yes
+          plugin_rss_source: https://pandacase.github.io/feed.xml
+          plugin_rss_limit: 3
+          config_order: base.header, isocalendar, languages, habits, rss
       
       - name: right-side
         uses: lowlighter/metrics@latest
@@ -85,12 +88,9 @@ jobs:
           config_timezone: Asia/Shanghai
           template: classic
           base: ""
-          plugin_rss: yes
-          plugin_rss_source: https://pandacase.github.io/feed.xml
-          plugin_rss_limit: 3
           plugin_achievements: yes
           plugin_achievements_limit: 8
           plugin_leetcode: yes
           plugin_leetcode_user: pandacase
           plugin_leetcode_sections: solved, skills, recent
-          config_order: achievements, rss, leetcode
+          config_order: achievements, leetcode
