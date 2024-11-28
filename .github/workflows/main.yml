@@ -70,6 +70,7 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_details: lines, percentage
           plugin_languages_indepth: yes
+          plugin_languages_aliases: jsx:javascript tsx:typescript
           plugin_leetcode: yes
           plugin_leetcode_user: pandacase
           plugin_leetcode_sections: solved, skills, recent
