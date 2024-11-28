@@ -50,7 +50,8 @@ jobs:
       - name: left-side
         uses: lowlighter/metrics@latest
         with:
-          filename: left-metrics.svg
+          output_action: gist
+          committer_gist: bfafe3313180650e1053fb12bc47e906
           # token
           token: ${{ secrets.METRICS_TOKEN }}
           # options
@@ -79,7 +80,8 @@ jobs:
       - name: right-side
         uses: lowlighter/metrics@latest
         with:
-          filename: right-metrics.svg
+          output_action: gist
+          committer_gist: e63f070d1317b9139f7adfb8e53789fa
           # token
           token: ${{ secrets.METRICS_TOKEN }}
           # options
