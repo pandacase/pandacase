@@ -13,18 +13,18 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: panda.sysu@gmail.com
 
-[<img align="left" width="390" alt="🍕" src="https://gist.githubusercontent.com/pandacase/bfafe3313180650e1053fb12bc47e906/raw/0b7e0ddb4fa7010bd348240a7eadffa36dcd12ea/github-metrics.svg">](#)
-[<img align="right" width="390" alt="🍪" src="https://gist.githubusercontent.com/pandacase/e63f070d1317b9139f7adfb8e53789fa/raw/58a775b2640059350033a24675ecac652036b916/github-metrics.svg">](#)
+[<img align="left" width="390" alt="🍕" src="https://gist.githubusercontent.com/pandacase/bfafe3313180650e1053fb12bc47e906/raw/github-metrics.svg">](#)
+[<img align="right" width="390" alt="🍪" src="https://gist.githubusercontent.com/pandacase/e63f070d1317b9139f7adfb8e53789fa/raw/github-metrics.svg">](#)
 
 -->
 
 <div align="center">
   <a href="#">
-    <img width="400" align="top" src="./left-metrics.svg" />
+    <img width="400" align="top" src="https://gist.githubusercontent.com/pandacase/bfafe3313180650e1053fb12bc47e906/raw/github-metrics.svg" />
   </a>
   &emsp;
   <a href="#">
-    <img width="400" align="top" src="./right-metrics.svg" />
+    <img width="400" align="top" src="https://gist.githubusercontent.com/pandacase/e63f070d1317b9139f7adfb8e53789fa/raw/github-metrics.svg" />
   </a>
 </div>
 
