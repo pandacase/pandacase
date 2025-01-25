@@ -1,6 +1,9 @@
 
-<!--
 ### Hi there 👋
+
+> I am currently working as a RD, so my github stop updating recently.
+
+<!--
 **pandacase/pandacase** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
