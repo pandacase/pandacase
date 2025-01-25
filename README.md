@@ -1,7 +1,7 @@
 
 ### Hi there 👋
 
-> I am currently working as a RD, so my github stop updating recently.
+> I am currently working for CapCut, so my github stopped updating recently.
 
 <!--
 **pandacase/pandacase** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
